@@ -92,7 +92,7 @@ Tests can be run by making API calls to the endpoints:
 # Test the chat endpoint
 curl -X POST http://localhost:3000/api/chat \
   -H "Content-Type: application/json" \
-  -d '{"message": "Wedding guest, midi, under $120 — I\'m between M/L. ETA to 560001?"}'
+  -d '{"message": "Wedding guest, midi, under $120 — I'\''m between M/L. ETA to 560001?"}'
 
 # Test individual tools
 curl -X POST http://localhost:3000/api/tools \
@@ -274,17 +274,6 @@ graph TD
     F --> G[JSON Trace + Response]
 ```
 
-## Images
-
-The project includes the following images in the `public/images` directory:
-
-1. ![Image One](/images/imgone.png)
-2. ![Image Two](/images/imgtwo.png)
-3. ![Image Three](/images/imagethree.png)
-4. ![Image Four](/images/imagefour.png)
-
-These images are used in the UI components of the application.
-
 ## Data Files
 
 - `src/app/data/products.json` - Product catalog
@@ -303,5 +292,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.#   e v o a i - a s s e s m e n t  
- 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
